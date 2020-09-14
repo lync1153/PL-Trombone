@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paul Lynch Trombone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP&family=Roboto&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <ul id="nav_bar">
+    <li id="nav_bar_home"><a href="index.html">Home</li></a>
+    <li id="nav_bar_about"><a href="about.html">About</li></a>
+    <li id="nav_bar_lessons"><a href="lessons.html">Lessons</li></a>
+    <li  id="nav_bar_contact"><a class="active" href="contact.html">Contact</li></a>
+    <li style="float:right" id="nav_bar_logo"><a href="index.html">Paul Lynch</li></a>
+  </ul>
+  <div id="contact">
+    <div>
+      <h2 id="contact_title">Contact</h2>
+    </div>
+    <div id="contact_bio">
+      <br>
+      <p id="contact_para">If you would like to inquire about trombone lessons or a trombone workshop for your band, please fill out the contact form below:</p>
+    </div>
+    <div id="contact_form_div">
+      <form id ="contact_form" accept-charset="UTF-8" action="https://www.formbackend.com/f/a49a77c84ef7863a" method="POST">
+        <br>
+        <label for="Name">Name</label>
+        <input type="text" id="contact_form_name" name="Name" placeholder ="Name" required><br>
+        <label for="Email">Email</label>
+        <input type="email" id="contact_form_email" name="Email" placeholder="Email" required><br>
+        <label for="Message">Message</label>
+        <textarea name="Message" id="contact_form_message" cols="30" rows="10" placeholder="Write message here"></textarea><br>
+        
+        <button id="contact_form_button">Submit</button>
+      </form>
+    </div>
+  </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

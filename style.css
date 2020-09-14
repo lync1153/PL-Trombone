@@ -1,0 +1,205 @@
+/* Universal styling */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Bkgd img  */
+body {
+  background-image: url(./img/bass\ 1.jpg); /*Replace with higher res version of img on harddrives in pod -.-  */
+  background-size: 110vw;
+  background-repeat: no-repeat;
+  background-position-y: 61px;
+  z-index: 0;
+}
+
+/* Nav_bar styling */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  /*border-bottom: black 5px solid;*/
+  background-color: rgba(248, 248, 255, 0.75);
+}
+
+li {
+  float: left;
+  font-size: 1.75rem;
+}
+
+/* Individual nav_bar link styling */
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: rgb(173, 11, 11);
+}
+
+#nav_bar_logo {
+  float: right;
+}
+
+/* Add styling for a:hover and a:hover:not here if added */
+li a.active {
+  text-decoration: underline;
+}
+
+#landing_content {
+  /*border: purple 5px solid;*/
+  padding-top: 20px; /* Adjust padding later */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#landing_text {
+  /*border: black 5px solid;*/
+  float: left;
+  text-align: center;
+
+  color: rgb(173, 11, 11);
+}
+
+#landing_title {
+  font-size: 5em;
+}
+
+#landing_subtitle {
+  font-size: 3em;
+}
+
+#landing_headshot {
+  /*border: black 5px solid;*/
+  float: right;
+  margin-left: 80px;
+}
+
+/*About section styling*/
+
+/*NOTE: Bkgd img size changed. Don't forget to fix this.*/
+#about,
+#lessons,
+#contact {
+  /*border: purple 5px solid;*/
+  margin-top: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  color: rgb(173, 11, 11);
+  background-color: rgba(248, 248, 255, 0.75);
+}
+
+#about_title,
+#lessons_title,
+#contact_title {
+  font-size: 3em;
+}
+
+#about_bio_para,
+#lessons_para,
+#contact_para {
+  font-size: 1.25em;
+}
+
+#about_socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#about_socials_fb {
+  margin-right: 50px;
+}
+/* Lesson section styling: Styling all same as About. No additional styling needed. */
+/* Fix background img my dude! */
+
+/*Contact section styling */
+
+/*Contact form section styling */
+/* Fix background img my dude! */
+/*#contact_form_div {
+  border: aqua 5px solid;
+}*/
+
+#contact_form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25em;
+}
+
+#contact_form_name,
+#contact_form_email,
+#contact_form_message {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+#contact_form_button {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.1em;
+  background-color: rgb(173, 11, 11);
+  color: white;
+}
+
+/*Responsive mobile*/
+@media (max-width: 820px) {
+  /* Landing page media queries */
+  body {
+    background-size: 100vh;
+    background-position-x: -450px;
+    background-position-y: ;
+  }
+  li {
+    font-size: 1.16rem;
+  }
+  #landing_content {
+    display: grid;
+  }
+  #landing_title {
+    font-size: 4em;
+  }
+  #landing_subtitle {
+    font-size: 2.25em;
+  }
+  #landing_headshot {
+    /*border: black 5px solid;*/
+    padding-top: 10px;
+    padding-right: 75px;
+    height: 500px;
+  }
+
+  #about_title,
+  #lessons_title,
+  #contact_title {
+    font-size: 2.5em;
+  }
+  #about_bio_pic_1 {
+    height: 350px;
+  }
+
+  #about_bio_pic_2 {
+    height: 200px;
+  }
+}
+
+/*Notes:
+-Can background img cover full page when changing size?  */
