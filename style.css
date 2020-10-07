@@ -49,7 +49,7 @@ li a.active {
 
 #landing_content {
   /*border: purple 5px solid;*/
-  padding-top: 20px; /* Adjust padding later */
+  padding-top: 75px; /* Adjust padding later */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,12 +84,12 @@ li a.active {
 #lessons,
 #contact {
   /*border: purple 5px solid;*/
-  margin-top: 35px;
+  margin-top: 75px;
   margin-left: 20px;
   margin-right: 20px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 50px;
   color: rgb(173, 11, 11);
   background-color: rgba(248, 248, 255, 0.75);
 }
@@ -98,6 +98,7 @@ li a.active {
 #lessons_title,
 #contact_title {
   font-size: 3em;
+  padding-bottom: 30px;
 }
 
 #about_bio_para,
@@ -200,5 +201,7 @@ li a.active {
   }
 }
 
-/*Notes:
--Can background img cover full page when changing size?  */
+/*To-Dos:
+-Can background img cover full page when changing size?
+-Optimize iOS mobile version???
+-Modify navbar in mobile */
