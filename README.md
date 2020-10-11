@@ -8,6 +8,5 @@ This is a  website dedicated for potential students, music educators, and music 
   - Managed through **Netlify**
   - Responsive Design
 
-Website was validated using validator.w3.org on 10/11/2020. 
-
- 
+Project Background:
+Prior to starting this project, I was using Wix to host my old website. While it was great and worked for what was needed, I wanted to build my own website from the ground up. Countine writing later**
